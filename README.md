@@ -26,6 +26,10 @@
     - you can catch values from formaction using the use:enhance directive
     - you can then augment the form e.g. validation, error msg, show loading, catch redirect
 
+- trying out ssr = false for spa/client side only web app like angular and vue
+    - I do not notice the difference when running pnpm run dev
+    - what adapter to use for crud spa with dynamic routes an dynamic data?
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
