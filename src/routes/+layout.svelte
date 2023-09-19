@@ -4,6 +4,7 @@
 		<li><a href="/">Home</a></li>
 		<li><a href="/recipes">recipes</a></li>
 		<li><a href="/recipes-client">recipes-client</a></li>
+		<li><a href="/login">login</a></li>
 	</ul>
 </header>
 

@@ -17,6 +17,14 @@
 - but i don't see recipe-client logged in vscode terminal. only browser console. even though doc says: 
 > +page.js and +layout.js files export universal load functions that run both on the server and in the browser
 
+- data creation and forrm actions
+    - we have a form element. we need to send this form data somewhere. this is where form actions come in.
+    - you need page action, that is in +page.server.ts, which a code on the server side that is responsible for catching the result of form action. 
+        - this is where you would save things in db or login the user.
+    - for simplicity, no named form action used.
+- use:enhance 
+    - you can catch values from formaction using the use:enhance directive
+    - you can then augment the form e.g. validation, error msg, show loading, catch redirect
 
 # create-svelte
 
