@@ -10,6 +10,13 @@
         - lets say you have cookies that know that a user is logged in then you can make the load function redirect user to different page. 
     - load function is the main way to fetch data.
     
+# questions and notes:
+- $page from $app/store only fetch from layout.server.ts ?
+- if contain both layout.ts and layout.server.ts then layout.ts > layout.server.ts ?
+- everytime route changes load is called. How to not call so many times if user change route multiple times quickly?
+- but i don't see recipe-client logged in vscode terminal. only browser console. even though doc says: 
+> +page.js and +layout.js files export universal load functions that run both on the server and in the browser
+
 
 # create-svelte
 
