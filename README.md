@@ -26,6 +26,15 @@
     - you can catch values from formaction using the use:enhance directive
     - you can then augment the form e.g. validation, error msg, show loading, catch redirect
 
+
+- from svelte d3 tutorial:
+```txt
+This is a simple template for creating data visualizations with Svelte. It was primarily created for my /newline course, "[Better Data Visualizations with Svelte](newline.co/courses/better-data-visualizations-with-svelte/welcome)."
+
+It uses [Svelte](svelte.dev/) and [D3](d3js.org/). The D3 modules most commonly used in data visualization are already installed.
+
+It also includes a simple CSS reset, as existing Svelte templates sometimes have styles that break data visualizations. There is little else added, the template is meant to be barebones.
+```
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
