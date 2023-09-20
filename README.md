@@ -34,6 +34,8 @@ This is a simple template for creating data visualizations with Svelte. It was p
 It uses [Svelte](svelte.dev/) and [D3](d3js.org/). The D3 modules most commonly used in data visualization are already installed.
 
 It also includes a simple CSS reset, as existing Svelte templates sometimes have styles that break data visualizations. There is little else added, the template is meant to be barebones.
+
+other ex: `codesandbox.io/s/module-8-lesson-12-d3-svelte-o8z0i`
 ```
 # create-svelte
 
